@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+} 
+
+
+#navBar .col-12 {
+    padding: 0;
+}
+h5 {
+    color: white;
+    font-weight: 800;
+}
+.navbar-toggler h5{
+    display: inline-block;
+}
+.dropdown{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+.navbarMax h5{
+    display: none;
+
+}
+header img{
+margin-top: 7%;
+}
+h1{
+    font-weight: 700;
+    font-size: 1.8em;
+    padding: 2%;
+}
+.line {
+    border: 2px solid white;
+    width: 15%;
+    margin: 4px auto;
+    display: inline-block;
+    background-color: white;
+}
+h4{
+    font-size: 1.2785em;
+    padding-bottom: 10%;
+}
+h2 {
+    font-weight: 700; 
+    font-size: 2.31em; 
+    padding-top: 10%;
+}
+header, .about {
+    background:#18bc9c;
+    color: white;
+}
+
+footer{
+    background: #2c3e50;
+    color: white;
+}
+
+main img{
+    width: 100%;
+    margin: 2% 0;
+}
+
+.about{
+ margin-top: 10%;
+}
+
+.btn-outline-primary {
+    margin-bottom: 10%;
+    color:white;
+    border: 1px solid white;
+}
+
+form {
+    text-align: left;
+    padding: 5%; 
+    color:#495057 ;
+}
+
+form {
+    .btn-primary{
+        background-color:#18bc9c; 
+        border: #18bc9c; 
+    }
+} 
+
+footer{
+    p {   
+        margin:0;
+    }   
+    h4 {
+        padding:7% 0 5% 0;
+        font-weight: 800;
+    }
+    div > i {
+        font-size: 2em;
+    }
+    .copyRight{
+        margin-top: 10%;
+    }
+    small{
+        display: block;
+        padding-bottom: 5%;
+        color: rgb(139, 139, 139);
+    }
+   
+}
+
+
+@media all and (min-width: 768px){
+    footer {
+        .copyRight{
+            margin-top: 3%;
+        }
+        small{
+            padding-bottom: 20px;
+        }
+    }
+    .btn-outline-primary {
+        margin-bottom: 3%;
+    }
+    h2 { 
+        padding-top: 3%;
+    }
+    .portfolio{
+        padding: 5% 10%;
+    }
+    .portfolioLine {
+        border: 2px solid black;
+        width: 15%;
+        margin: 4px auto;
+        display: inline-block;
+        background-color: black;
+    }
+    main img{
+        width: 120%;
+        margin: 2% 2%;
+    }
+    .about{
+        margin-top: 0px;
+    }
+}
+@media all and (min-width: 1200px){
+    .nacvbar-togle .button {
+        display: none;
+    }
+    .navbarMax h5{
+        display: inline;
+    }
+    footer {
+        .copyRight{
+            margin-top: 3%;
+        }
+        small{
+            padding-bottom: 20px;
+        }
+    }
+    .btn-outline-primary {
+        margin-bottom: 3%;
+    }
+    h2 { 
+        padding-top: 3%;
+    }
+    main img{
+        width: 100%;
+        margin: 2% 0;
+    }
+    .portfolio{
+        padding: 2% 20% 5% 20%;
+    }
+    .about{
+        margin-top: 0px;
+    }
+    .portfolioLine {
+        border: 2px solid black;
+        width: 15%;
+        margin: 4px auto;
+        display: inline-block;
+        background-color: black;
+    }
+    .navbar-toggler{
+        display: none;
+    }
+}
+
+@media all and (max-width: 576px){
+    .paddingParagraph{
+        padding: 0 5% 0 5%;
+    }
+}
